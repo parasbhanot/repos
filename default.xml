@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     This will fetch yocto with branch dunfell
+-->
+
+<manifest>
+        <remote name="yocto" fetch="git://git.yoctoproject.org/poky.git"/>
+        <project name="dunfell" remote="yocto" path="yocto_latest/dunfell" revision="dunfell"/>
+</manifest>
