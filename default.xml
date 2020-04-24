@@ -4,6 +4,6 @@
 -->
 
 <manifest>
-        <remote name="yocto" fetch="https://git.yoctoproject.org/"/>
-        <project name="poky" remote="yocto" path="yocto_latest/dunfell" revision="dunfell"/>
+        <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+        <project name="poky" remote="yocto" path="yocto_latest" revision="refs/heads/dunfell"/>
 </manifest>
