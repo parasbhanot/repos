@@ -5,5 +5,7 @@
 
 <manifest>
         <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+        <remote name="oe" fetch="git://git.openembedded.org/meta-openembedded"/>
         <project name="poky" remote="yocto" path="yocto_latest" revision="refs/heads/dunfell"/>
+        <project name="meta-openembedded" remote="oe" path="yocto_latest/layers/downloaded/core/" revision="refs/heads/dunfell"/>
 </manifest>
